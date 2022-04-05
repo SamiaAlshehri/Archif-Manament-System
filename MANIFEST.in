@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include archif_managment *.css
+recursive-include archif_managment *.csv
+recursive-include archif_managment *.html
+recursive-include archif_managment *.ico
+recursive-include archif_managment *.js
+recursive-include archif_managment *.json
+recursive-include archif_managment *.md
+recursive-include archif_managment *.png
+recursive-include archif_managment *.py
+recursive-include archif_managment *.svg
+recursive-include archif_managment *.txt
+recursive-exclude archif_managment *.pyc
